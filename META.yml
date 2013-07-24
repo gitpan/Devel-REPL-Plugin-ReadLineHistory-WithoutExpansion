@@ -22,9 +22,11 @@ no_index:
     - eg
     - examples
 requires:
+  Devel::REPL::Plugin::ReadLineHistory: 0
+  Moose::Role: 0
   perl: 5.008005
 resources:
   bugtracker: https://github.com/tsibley/Devel-REPL-Plugin-ReadLineHistory-WithoutExpansion/issues
   homepage: https://github.com/tsibley/Devel-REPL-Plugin-ReadLineHistory-WithoutExpansion
   repository: https://github.com/tsibley/Devel-REPL-Plugin-ReadLineHistory-WithoutExpansion.git
-version: 0.01
+version: 0.02
